@@ -1,0 +1,33 @@
+{
+  "name": "FacebookYarn",
+  "version": "1.0.1",
+  "description": "Facebook yarn framework demo.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/WildDylan/YarnDemo.git",
+    "type": "git"
+  },
+  "author": "dylan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "keywords": [
+    "cool",
+    "useful",
+    "stuff"
+  ],
+  "homepage": "https://github.com/WildDylan/YarnDemo",
+  "bugs": "https://github.com/WildDylan/YarnDemo/issue",
+  "contributors": [
+    "dylan <dylan@china.com> (http://wilddylan.github.io)"
+  ],
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "bin/*.js"
+  ],
+  "bin": {
+    "my-new-project-cli": "bin/my-new-project.cli.js"
+  }
+}
